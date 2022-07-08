@@ -1,4 +1,6 @@
-# @wowmaking/react-native-ios-scroll-picker
+# @wave909/react-native-ios-scroll-picker
+
+Fork of @wowmaking/react-native-ios-scroll-picker published to NPM so as not to wait for pull requests to be accepted
 
 React Native Scroll Picker like `IOS UIDatePicker` on iOS and Android. 
 
@@ -13,13 +15,13 @@ React Native Scroll Picker like `IOS UIDatePicker` on iOS and Android.
 Open a Terminal in the project root and run:
 
 ```sh
-yarn add @wowmaking/react-native-ios-scroll-picker
+yarn add @wave909/react-native-ios-scroll-picker
 ```
 
 Or if you use npm:
 
 ```sh
-npm i @wowmaking/react-native-ios-scroll-picker --save
+npm i @wave909/react-native-ios-scroll-picker --save
 ```
 
 Now we need to install:
@@ -32,7 +34,7 @@ Now we need to install:
 ```javascript
 import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Picker from '@wowmaking/react-native-ios-scroll-picker';
+import Picker from '@wave909/react-native-ios-scroll-picker';
 
 const start = 2000;
 const years = new Array(new Date().getFullYear() - start + 1)
